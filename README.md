@@ -1,5 +1,6 @@
-# TANZANIA WALL WATER CLASSIFICATION ANALYSIS
-![image.png](attachment:image.png)
+# TANZANIA WALL WATER CLASSIFICATION ANALYSIS)
+![image](https://github.com/user-attachments/assets/409929df-2a2e-4b78-99d4-d11a1a224889)
+
 ### Business Overview
 Tanzania's sustained growth from a low-income to lower-middle- income country mirrors its positive progress towards access to safe water and sanitation for all. Ground water is considered the major source of water for the nation's people; however it's not always clean. This is due to the poor condition exhibited by many of these ground water wells, hence making it hard for the government to achieve it desired goals.
 ### Business Problem
@@ -14,6 +15,7 @@ The data used for this project was derived from DRIVENDATA Competitions; for mor
 * Handle Missing Values
 * Feature Engineering
 * Encode Categorical Features
+  
 Accuracy: the model achieved an accuracy of approximately (o.725) 72.50% on the test set,  a relatively good score.
 ​
 Precision: The proportion of positive predictions that were correct.(Higher precision means fewer false positives.)
@@ -42,7 +44,7 @@ Third row: Predictions for the "non-functional" class:
   * 126 instances incorrectly predicted as non-functional, but were actually functional needs repair.
   * 3117 instances correctly predicted as non-functional.
 
-Conclusion
+# Conclusion
 In this project, we developed a machine learning model to predict the condition of water wells in Tanzania, which is critical for optimizing water resources and ensuring that NGOs and government agencies can focus their efforts on wells in need of repair. We approached this problem using a ternary classification framework, which are both interpretable and effective for this type of classification task.
 
 Data Preprocessing: We carefully handled the dataset by addressing missing values, encoding categorical features, and engineering new features like the well's age based on its installation year. This allowed us to prepare the dataset for optimal performance in the models.
